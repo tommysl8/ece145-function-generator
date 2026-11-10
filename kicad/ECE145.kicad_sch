@@ -1,0 +1,70 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "57992089-7b68-44d8-903f-6616aa66ee34")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 165.1 66.04)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4aaef592-651a-4d20-8a5f-6c07bd4df2df")
+		(property "Sheetname" "Vref Generator"
+			(at 165.1 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vref_generator.kicad_sch"
+			(at 165.1 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_{ref}" output
+			(at 198.12 76.2 0)
+			(uuid "aaef2146-f035-434a-8ec5-1c49e18872a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ECE145"
+				(path "/57992089-7b68-44d8-903f-6616aa66ee34"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
