@@ -1,0 +1,19 @@
+﻿# LTspice outputs
+*.raw
+*.log
+*.net
+*.op.raw
+*.db
+*.plt
+*.fft
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+_autosave-*
+
+# Windows
+desktop.ini
+Thumbs.db

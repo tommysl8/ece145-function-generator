@@ -1,0 +1,25 @@
+* LM13700 (one amplifier) simplified model, same pin order as TI's LM13700/NS:
+* 1=ABC 2=diode bias 3=+IN 4=-IN 5=OUT 6=V- 7=buffer in 8=buffer out 11=V+
+.subckt LM13700_SIM 1 2 3 4 5 6 7 8 11
+* bias input: two junctions above V-
+QD1 1 1 m1 QN
+QD2 m1 m1 6 QN
+QM1 e m1 6 QN
+* differential pair
+Q4 c4 4 e QN
+Q5 c5 3 e QN
+* current mirrors to the output
+QP1 c4 c4 11 QP
+QP2 x4 c4 11 QP
+QP3 c5 c5 11 QP
+QP4 5 c5 11 QP
+QN1 x4 x4 6 QN
+QN2 5 x4 6 QN
+* Darlington buffer
+QB1 11 7 mb QN
+QB2 11 mb 8 QN
+* diode-bias pin unused in this design
+RD 2 6 1G
+.model QN NPN(IS=1e-14 BF=200 VAF=100 CJE=1p CJC=1p TF=0.3n)
+.model QP PNP(IS=1e-14 BF=80 VAF=60 CJE=1p CJC=1p TF=1n)
+.ends LM13700_SIM
