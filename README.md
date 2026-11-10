@@ -25,7 +25,11 @@ Open any of the `.asc` files in LTspice and run it. The Block B file needs `LM13
 
 ## Status
 
+Our weekly progress is in our [project journal](https://docs.google.com/document/d/10UkA9apSgxFKh3TzuIOj_XJLq4ksi4Qi5qYiC3EA1SQ/edit?usp=sharing).
+
+
 - Block A: built and tested
 - Block B: built and tested, tunes from about 300 Hz to 14 kHz
 - Block C: being built
 - Block D: simulated, not built yet
+
