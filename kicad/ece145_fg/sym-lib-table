@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ece145")(type "KiCad")(uri "${KIPRJMOD}/ece145.kicad_sym")(options "")(descr "ECE 145 project symbols"))
+)
