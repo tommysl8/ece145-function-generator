@@ -16,8 +16,8 @@ The circuit is split into four blocks:
 ## Folders
 
 - `ltspice` has the LTspice schematics for each block.
-- `kicad` has the KiCad schematic and PCB files.
-- `docs` has our final proposal.
+- `kicad` has the KiCad 10 project with the full schematic.
+- `docs` has our final proposal and a PDF of the schematic.
 
 ## Running the simulations
 
@@ -27,9 +27,9 @@ Open any of the `.asc` files in LTspice and run it. The Block B file needs `LM13
 
 Our weekly progress is in our [project journal](https://docs.google.com/document/d/10UkA9apSgxFKh3TzuIOj_XJLq4ksi4Qi5qYiC3EA1SQ/edit?usp=sharing).
 
-
 - Block A: built and tested
 - Block B: built and tested, tunes from about 300 Hz to 14 kHz
-- Block C: being built
-- Block D: simulated, not built yet
+- Block C: built on the breadboard and producing a sine wave, testing next
+- Block D: simulated, parts gathered, not built yet
+- KiCad schematic: done for all four blocks
 
